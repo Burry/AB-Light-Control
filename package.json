@@ -1,15 +1,18 @@
 {
-    "name": "csci-4849-switch-control",
+    "name": "csci-4849-project-2",
     "version": "1.0.0",
     "license": "MIT",
     "private": true,
     "description": "An application that can be fully controlled with a small number of keys",
-    "homepage": "https://csci-4849-switch-control.grantburry.com",
+    "homepage": "https://csci-4849-project-2.grantburry.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Burry/CSCI-4849-Switch-Control.git"
+        "url": "https://github.com/Burry/CSCI-4849-Project-2.git"
     },
-    "author": "Grant Burry <grant@burry.me> (https://grantburry.com)",
+    "contributors": [
+        "Grant Burry <grant@burry.me> (https://grantburry.com)",
+        "Vamshi Arugonda <vamshi.arugonda@colorado.edu>"
+    ],
     "scripts": {
         "build": "webpack --config config/webpack.config.prod.js",
         "lint:js": "./node_modules/.bin/eslint src/**/*.js",
@@ -23,9 +26,6 @@
         "predeploy": "npm-run-all build copy-cname",
         "deploy": "gh-pages -d build",
         "precommit": "lint-staged"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
     },
     "browserslist": [
         "> 1%",
@@ -57,7 +57,6 @@
         }
     },
     "dependencies": {
-        "jquery": "^3.3.1",
         "systematize": "^3.2.4"
     },
     "devDependencies": {
