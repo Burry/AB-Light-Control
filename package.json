@@ -1,13 +1,13 @@
 {
-    "name": "csci-4849-project-2",
+    "name": "ab-light-control",
     "version": "1.0.0",
     "license": "MIT",
     "private": true,
-    "description": "An application that can be fully controlled with a small number of keys",
-    "homepage": "https://csci-4849-project-2.grantburry.com",
+    "description": "Conversational user interface for CSCI 4849 Project 2. Controls Philips Hue bulbs.",
+    "homepage": "https://ab-light-control.grantburry.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Burry/CSCI-4849-Project-2.git"
+        "url": "https://github.com/Burry/AB-Light-Control.git"
     },
     "contributors": [
         "Grant Burry <grant@burry.me> (https://grantburry.com)",
